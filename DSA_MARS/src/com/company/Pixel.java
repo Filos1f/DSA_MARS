@@ -17,8 +17,8 @@ public class Pixel {
     private int green;
     private int blue;
 
-    private int coordX;
-    private int coordY;
+    public int coordX;
+    public int coordY;
 
     public boolean isWhite () {
         return red == 255 && green == 255 && blue == 255;
