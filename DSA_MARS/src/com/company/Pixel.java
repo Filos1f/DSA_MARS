@@ -13,9 +13,9 @@ public class Pixel {
         this.coordY = y;
     }
 
-    private int red;
-    private int green;
-    private int blue;
+    public int red;
+    public int green;
+    public int blue;
 
     public int coordX;
     public int coordY;
